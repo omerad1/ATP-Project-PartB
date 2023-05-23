@@ -1,6 +1,6 @@
 package algorithms.maze3D;
 
-public interface IMazeGenerator3D {
+public interface IMaze3DGenerator {
     /**
      *generate 3D maze in size depth*row*column
      */
