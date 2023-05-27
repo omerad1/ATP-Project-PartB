@@ -44,5 +44,8 @@ public class Solution implements Serializable {
     public int getSize(){
         return path.size();
     }
-
+    @Override
+    public String toString() {
+        return "" + getSize();
+}
 }
