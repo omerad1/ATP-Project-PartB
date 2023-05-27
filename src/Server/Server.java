@@ -48,7 +48,6 @@ public class Server {
                     // Submit the client handling task to the thread pool
                     executorService.execute(() -> handleClient(clientSocket));
                 } catch (SocketTimeoutException e) {
-                    System.out.println("Socket Timed Out");
                 }
             }
 
